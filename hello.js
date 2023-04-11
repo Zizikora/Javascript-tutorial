@@ -34,4 +34,53 @@ var name = "Peter Parker",
 age = 21,
 isMarried = false;
 
+function text() {
+alert('Hello My name is John, I live in Londen');
+}
+
+// Call function on click of the button
+var text ='Hello My name is John, I live in Londen';
+var a ='Hello My name is John, I live in Londen'
+var a =25;
+alert('Hello My name is John, I live in Londen');
+
+// Call function on click of the button
+document.getElementById("mybnt").onclick = text;
+
+
+
+// Call function on click of the button
+document.getElementById("Hello My name is John, I live in Londen").onclick = text;
+
+
+function colors(){
+var text ='Find colors'
+var colors = ["Red", "Yellow", "Green", "Orange"];
+alert('Red')
+}
+
+// Call function on click of the button
+document.getElementById("Find colors").onclick = colors;
+
+
+
+// Call function on click of the button
+document.getElementById("Find colors").onclick = colors;
+
+function colors2(){
+    var text ='Second color'
+    var colors = ["Yellow"];
+    alert('Yellow')
+    }
+    
+    // Call function on click of the button
+    document.getElementById("Second color").onclick = colors;
+    
+    
+    
+    // Call function on click of the button
+    document.getElementById("Second color").onclick = colors;
+    
+
+
 
