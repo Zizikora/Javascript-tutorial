@@ -45,42 +45,31 @@ var a =25;
 alert('Hello My name is John, I live in Londen');
 
 // Call function on click of the button
-document.getElementById("mybnt").onclick = text;
+document.getElementById("myBtn").onclick = text;
 
 
 
 // Call function on click of the button
-document.getElementById("Hello My name is John, I live in Londen").onclick = text;
+document.getElementById("myBtn").onclick = text;
 
 
 function colors(){
 var text ='Find colors'
 var colors = ["Red", "Yellow", "Green", "Orange"];
-alert('Red')
+console.log(Red);
 }
-
-// Call function on click of the button
-document.getElementById("Find colors").onclick = colors;
-
-
-
-// Call function on click of the button
-document.getElementById("Find colors").onclick = colors;
 
 function colors2(){
     var text ='Second color'
     var colors = ["Yellow"];
-    alert('Yellow')
+    console.log(Yellow);
     }
-    
-    // Call function on click of the button
-    document.getElementById("Second color").onclick = colors;
+
     
     
-    
-    // Call function on click of the button
-    document.getElementById("Second color").onclick = colors;
+
     
 
 
 
+5
